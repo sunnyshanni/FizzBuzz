@@ -6,18 +6,18 @@ public class Reduce {
     System.out.println(steps);  // print number of steps
 }
 
-    // Helper method to compute steps to reach 0
     public static int reduce(int n) {
         int count = 0;
         while (n > 0) {
             if (n % 2 == 0) {
-                n /= 2;   // even, divide by 2
+                n /= 2;
             } else {
-                n -= 1;   // odd, subtract 1
+                n -= 1;
             }
-            count++;      // count each step
+            count++;
         }
         return count;
+        //3
     }
 }
 

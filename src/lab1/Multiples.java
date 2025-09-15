@@ -15,11 +15,8 @@ public class Multiples {
 
             if (divisibleBya || divisibleByb) {
                 count++;
-
             }
-
             i++;
-
         }
         return count;
     }
